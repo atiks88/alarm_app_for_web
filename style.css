@@ -1,0 +1,215 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+html {
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    flex-direction: column;
+    align-items: center;
+    /* height: 100%;
+    width: 100%;
+    background-color: black; */
+}
+
+#heading {
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42.19px;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 1rem;
+}
+
+#timerContainer {
+    /* width: 60%;
+    height: 20%; */
+    padding: 4vh;
+    gap: 2rem;
+    font-family: 'Roboto';
+    border-radius: 20px;
+    background: #34344A;
+    color: white;
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow: -moz-hidden-unscrollable;
+    align-items: center;
+}
+
+.setTime {
+    display: flex;
+    /* font-size: 2.8vw; */
+}
+
+#hoursInput {
+    display: flex;
+    /* width: 30%;
+    height: 10%; */
+    font-size: 3vw;
+}
+
+#minutesInput {
+    display: flex;
+    /* width: 30%;
+    height: 10%; */
+    font-size: 3vw;
+}
+
+#secondsInput {
+    display: flex;
+    /* width: 30%;
+    height: 10%; */
+    font-size: 3vw;
+}
+
+.hms {
+    display: flex;
+    margin: 0px;
+    align-items: center;
+}
+
+.setBtn {
+    padding-left: 2vh;
+    padding-right: 2vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border: none;
+    /* font-weight: 500;
+    font-style: normal;
+    font-size: 1.5ch; */
+    border-radius: 18px;
+    background-color: #F0F757;
+    color: #34344A;
+    cursor: pointer;
+}
+
+.setBtn:active {
+    background-color: #45455b;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+#currentTimers {
+    padding-left: 4ch;
+    padding-right: 4ch;
+    padding-top: 1ch;
+    padding-bottom: 1ch;
+    color: white;
+    font-size: 1.9vw;
+    font-family: 'Roboto';
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6vh;
+    border-radius: 50px;
+    background: #39393E;
+}
+
+#Youhavenotimer {
+    color: white;
+    font-family: 'Roboto';
+    font-size: 1.6vw;
+    margin-top: 3%;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+input {
+    background-color: inherit;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    outline: none;
+    color: #fff;
+    text-align: center;
+    text-decoration: underline;
+}
+
+input::placeholder {
+    color: #fff;
+    align-items: center;
+
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#timer {
+    padding: 3.8vh;
+    gap: 2rem;
+    font-family: 'Roboto';
+    border-radius: 20px;
+    background: #34344A;
+    color: white;
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow: -moz-hidden-unscrollable;
+    align-items: center;
+}
+
+#deletebtn {
+    padding: 0.8vh;
+    border: none;
+    border-radius: 18px;
+    background-color: #F0F757;
+    color: #34344A;
+    /* font-weight: 500;
+    font-style: normal;
+    font-size: 1.5ch; */
+    cursor: pointer;
+}
+
+#deletebtn:active {
+    background-color: #45455b;
+}
+
+#hour {
+    display: flex;
+    gap: 5px;
+    font-size: 4vh;
+}
+
+#minute {
+    display: flex;
+    gap: 5px;
+    font-size: 4vh;
+}
+
+#second {
+    display: flex;
+    gap: 5px;
+    font-size: 4.3vh;
+}
+#timerisUP{
+    height: 30px;
+    width: 30px;
+    color: #45455b;
+    
+}
